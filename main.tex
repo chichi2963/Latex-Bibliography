@@ -1,0 +1,22 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[sorting = none, style = authortitle]{biblatex}
+\addbibresource{file.bib}
+
+\title{biblatex}
+\author{sachin rawat}
+\date{May 2024}
+
+\begin{document}
+
+\maketitle
+\section{Introduction}
+
+We want to cite the articles \cite{smith2010} and \cite{johnson2015} \\
+We want to cite the books \parencite{bob2012,williams2018}
+
+
+\printbibliography[title = Articles, type = article]
+\printbibliography[title = Books, type = book]
+
+\end{document}
